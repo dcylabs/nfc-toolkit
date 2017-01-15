@@ -5,5 +5,5 @@
 # Usages 
 ## Docker 
 ```
-docker run --rm -h nfc-toolkit -ti --device=/dev/ttyUSB0 -v $(pwd):/workspace nfc bash
+docker run --rm -h nfc-toolkit -ti --device=/dev/ttyUSB0 -v $(pwd):/workspace dcylabs/nfc-toolkit bash
 ```
